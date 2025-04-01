@@ -1,0 +1,36 @@
+body {
+  width: 100%;
+  max-width: 380px;
+  margin: 0 auto;
+  
+}
+
+h1  {
+  border-left: 5px solid #e1e1e1;
+  padding-left: 5px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px 15px;
+  margin: 4px 0;
+  background: #eee;
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+li:hover {
+  background: darken(#eee, 5%);
+}
+
+.placeholder{
+  background: rgb(225,210,120);
+}
+
+.placeholder::before {
+  content: "drop here";
+  color: rgb(225,210,90);
+}
