@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenai&display=swap');
+
+/*
+====================
+Global Styles
+====================
+*/
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Zen Kurenai', sans-serif;
+  background: #960854;
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+  margin-top: 150px;
+  border-radius: 21px;
+  background: #960854;
+  box-shadow: -20px -20px 40px #6c063c, 20px 20px 40px #c00a6c;
+}
+
+.container h3 {
+  padding: 20px 0;
+  font-size: 32px;
+  color: #fff;
+}
+
+.container input {
+  padding: 10px;
+  font-size: 18px;
+  outline: none;
+}
+
+.container button {
+  padding: 10px;
+  font-size: 18px;
+  outline: none;
+  margin-left: 10px;
+  background: indianred;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.container button:hover {
+  color: indianred;
+  background: #fff;
+}
